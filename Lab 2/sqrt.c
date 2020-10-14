@@ -8,16 +8,16 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("NEGSUPPORT: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
 	int input = atoi(argv[1]);
 	if(input<0)
-		printf("Sqrt of %d (non positive number) is %fi\n",input,sqrt(-1*input));
+		printf("NEGSUPPORT: Sqrt of %d (non positive number) is %fi\n",input,sqrt(-1*input));
 	else
-		printf("Sqrt of %d is %f\n",input,sqrt(input));
-	printf("End of program. Exiting");
+		printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
+	printf("NEGSUPPORT: End of program. Exiting");
 	return(0);
 
 } // end main
